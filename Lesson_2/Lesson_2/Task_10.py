@@ -16,5 +16,5 @@ for i in range (n):
         count_t += 1
 print()
 if count_t > count_o:
-    print(count_o, )
+    print(count_o)
 else: print(count_t)

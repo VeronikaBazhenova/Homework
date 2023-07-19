@@ -10,8 +10,8 @@ sum = int(input("Введите сумму чисел:"))
 multy = int(input("Введите произведение чисел:"))
 n = 1000
 flag = True
-for i in range (n):
-    for j in range (n):
+for i in range (sum):
+    for j in range (sum):
         if (i+j == sum) and (i*j == multy):
             print ("X = ", i, "Y = ", j)
             flag =False
